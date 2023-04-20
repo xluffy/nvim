@@ -5,7 +5,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
-      ensure_installed = { "lua_ls", "awk_ls", "clangd", "dockerls", "golangci_lint_ls", "gopls", "jsonls",
+      ensure_installed = { "lua_ls", "awk_ls", "clangd", "dockerls", "golangci_lint_ls", "jsonls",
         "intelephense", "ruff_lsp", "sqlls", "taplo", "terraformls", "tflint", "yamlls", "rust_analyzer" },
     },
   },
@@ -21,7 +21,7 @@ return {
     "jay-babu/mason-nvim-dap.nvim",
     -- overrides `require("mason-nvim-dap").setup(...)`
     opts = {
-      -- ensure_installed = { "python" },
+      ensure_installed = { "python" },
     },
   },
 }
